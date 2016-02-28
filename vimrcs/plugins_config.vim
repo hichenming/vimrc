@@ -176,8 +176,6 @@ inoremap <expr><C-l>     neocomplete#complete_common_string()
 " Recommended key-mappings.
 " <TAB>: completion.
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
-" Close popup by <Space>.
-inoremap <expr><Space> pumvisible() ? "\<C-y>" : "\<Space>"
 
 " Enable omni completion.
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
