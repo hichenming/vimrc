@@ -182,6 +182,8 @@ set noswapfile
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Use spaces instead of tabs
 set expandtab
+set autoindent
+set ts=4
 
 " Be smart when using tabs ;)
 set smarttab
